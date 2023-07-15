@@ -16,6 +16,7 @@ public class NestedAPIstepDef {
 	@Before
 	public void initiatScenario( Scenario scenario) {
 		this.scenario = scenario;
+		
 	}
 
 	@Given("Verify nested API")
@@ -128,7 +129,9 @@ public class NestedAPIstepDef {
 
 	public String getDivisionName(JSONObject country, String division) {
 
+		System.out.println("Test AT");
 		return country.getString(division);
+		
 
 	}
 
