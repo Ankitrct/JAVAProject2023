@@ -1,3 +1,7 @@
+stepDefinations\LoadExcelFilestepDef.class
 Utils\Payload.class
 stepDefinations\LoadExcelFilestepDef$1.class
 Rest\Auto\TestRunner.class
+stepDefinations\NestedAPIstepDef.class
+stepDefinations\AddvaluesstepDef.class
+stepDefinations\gitTestFile.class
