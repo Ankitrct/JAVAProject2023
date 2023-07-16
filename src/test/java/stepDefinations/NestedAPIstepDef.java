@@ -10,13 +10,13 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class NestedAPIstepDef {
-	
+
 	private Scenario scenario;
-	
+
 	@Before
-	public void initiatScenario( Scenario scenario) {
+	public void initiatScenario(Scenario scenario) {
 		this.scenario = scenario;
-		
+
 	}
 
 	@Given("Verify nested API")
@@ -24,10 +24,8 @@ public class NestedAPIstepDef {
 
 		RestAssured.baseURI = "https://www.gov.uk/bank-holidays.json";
 
-		Response res = RestAssured.given().log().all()
-				.when().get()
-				.then().assertThat().statusCode(200).extract().response();
-		
+		Response res = RestAssured.given().log().all().when().get().then().assertThat().statusCode(200).extract()
+				.response();
 
 		JSONObject countries = new JSONObject(res.asString());
 
@@ -59,14 +57,13 @@ public class NestedAPIstepDef {
 				if (buntingFlag == false) {
 					System.out.println("England false Events ----" + title + "----" + buntingFlag);
 					Englandfalserecordcount++;
-					
+
 					scenario.log("England false Events ----" + title + "----" + buntingFlag);
 				}
 
 			}
 			System.out.println("------------------------------------------------");
 			System.out.println("England false event ----" + Englandfalserecordcount);
-			
 
 		}
 
@@ -84,7 +81,7 @@ public class NestedAPIstepDef {
 				if (buntingFlag == false) {
 					System.out.println("Scotland false Events ----" + title + "----" + buntingFlag);
 					Scotlandfalserecordcount++;
-					
+
 					scenario.log("Scotland false Events ----" + title + "----" + buntingFlag);
 				}
 			}
@@ -106,7 +103,7 @@ public class NestedAPIstepDef {
 				if (buntingFlag == false) {
 					System.out.println("Ireland false Events ----" + title + "----" + buntingFlag);
 					Irelandfalserecordcount++;
-					
+
 					scenario.log("Ireland false Events ----" + title + "----" + buntingFlag);
 				}
 			}
@@ -129,11 +126,14 @@ public class NestedAPIstepDef {
 
 	public String getDivisionName(JSONObject country, String division) {
 
-		gitTestFile.testMethod();
+		// gitTestFile.testMethod();
 		return country.getString(division);
-		
 
 	}
-
+	
+	@Given("find second largest integer")
+	public void find_second_largest_integer() {
+	   gitTestFile.findSecondLartgestInteger();
+	}
 
 }
