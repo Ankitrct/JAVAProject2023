@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Rest.Auto.TestRunner" time="6.5" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Rest.Auto.TestRunner" time="5.106" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Ankit\AppData\Local\Temp\surefire571488469130384474\surefirebooter-20230712200653262_3.jar C:\Users\Ankit\AppData\Local\Temp\surefire571488469130384474 2023-07-12T20-06-52_880-jvmRun1 surefire-20230712200653262_1tmp surefire_0-20230712200653262_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Ankit\AppData\Local\Temp\surefire4840942952461349675\surefirebooter-20230715204245173_3.jar C:\Users\Ankit\AppData\Local\Temp\surefire4840942952461349675 2023-07-15T20-42-44_649-jvmRun1 surefire-20230715204245173_1tmp surefire_0-20230715204245173_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Ankit\eclipse-workspace\PracticeProject2023\Auto\target\test-classes;C:\Users\Ankit\eclipse-workspace\PracticeProject2023\Auto\target\classes;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.0\selenium-java-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.0\selenium-api-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.0\selenium-chrome-driver-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.0\selenium-edge-driver-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.0\selenium-firefox-driver-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.0\selenium-ie-driver-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.0\selenium-opera-driver-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.0\selenium-remote-driver-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.0\selenium-safari-driver-3.7.0.jar;C:\Users\Ankit\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.0\selenium-support-3.7.0.jar;C:\Users\Ankit\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\Ankit\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ankit\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Ankit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ankit\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Ankit\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Ankit\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Ankit\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Ankit\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ankit\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Ankit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Ankit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Ankit\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Ankit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Ankit\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\Ankit\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Ankit\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Ankit\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Ankit\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Ankit\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Ankit\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Ankit\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Ankit\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\Ankit\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\Ankit\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\Ankit\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Ankit\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Ankit\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\Ankit\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\Ankit\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\Ankit\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\Ankit\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ankit\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Ankit\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\Ankit\.m2\repository\net\minidev\json-smart\2.4.10\json-smart-2.4.10.jar;C:\Users\Ankit\.m2\repository\net\minidev\accessors-smart\2.4.9\accessors-smart-2.4.9.jar;C:\Users\Ankit\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Ankit\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Ankit\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\Ankit\.m2\repository\org\mockito\mockito-core\5.4.0\mockito-core-5.4.0.jar;C:\Users\Ankit\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.5\byte-buddy-agent-1.14.5.jar;C:\Users\Ankit\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Ankit\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.2\cucumber-extentsreport-3.0.2.jar;C:\Users\Ankit\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\Ankit\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Ankit\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Ankit\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Ankit\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Ankit\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Ankit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Ankit\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Ankit\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Ankit\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Ankit\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Ankit\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Ankit\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Ankit\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Ankit\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Ankit\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Ankit\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Ankit\.m2\repository\org\osgl\excel-reader\1.4.0\excel-reader-1.4.0.jar;C:\Users\Ankit\.m2\repository\org\osgl\osgl-tool\1.15.1\osgl-tool-1.15.1.jar;C:\Users\Ankit\.m2\repository\cn\hutool\hutool-core\4.0.12\hutool-core-4.0.12.jar;C:\Users\Ankit\.m2\repository\ma\glasnost\orika\orika-core\1.5.2\orika-core-1.5.2.jar;C:\Users\Ankit\.m2\repository\org\javassist\javassist\3.19.0-GA\javassist-3.19.0-GA.jar;C:\Users\Ankit\.m2\repository\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar;C:\Users\Ankit\.m2\repository\com\googlecode\concurrentlinkedhashmap\concurrentlinkedhashmap-lru\1.4.2\concurrentlinkedhashmap-lru-1.4.2.jar;C:\Users\Ankit\.m2\repository\com\carrotsearch\java-sizeof\0.0.4\java-sizeof-0.0.4.jar;C:\Users\Ankit\.m2\repository\org\codehaus\janino\janino\2.7.5\janino-2.7.5.jar;C:\Users\Ankit\.m2\repository\org\codehaus\janino\commons-compiler\2.7.5\commons-compiler-2.7.5.jar;C:\Users\Ankit\.m2\repository\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;C:\Users\Ankit\.m2\repository\org\osgl\osgl-logging\1.2.0\osgl-logging-1.2.0.jar;C:\Users\Ankit\.m2\repository\org\osgl\osgl-storage\1.7.0\osgl-storage-1.7.0.jar;C:\Users\Ankit\.m2\repository\org\osgl\osgl-version\2.0.0-BETA-1\osgl-version-2.0.0-BETA-1.jar;C:\Users\Ankit\.m2\repository\org\osgl\osgl-ut\2.0.0-BETA-1\osgl-ut-2.0.0-BETA-1.jar;C:\Users\Ankit\.m2\repository\org\hamcrest\hamcrest-junit\2.0.0.0\hamcrest-junit-2.0.0.0.jar;C:\Users\Ankit\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\Ankit\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Ankit\.m2\repository\org\jxls\jxls-jexcel\1.0.9\jxls-jexcel-1.0.9.jar;C:\Users\Ankit\.m2\repository\org\jxls\jxls\2.6.0\jxls-2.6.0.jar;C:\Users\Ankit\.m2\repository\org\apache\commons\commons-jexl3\3.1\commons-jexl3-3.1.jar;C:\Users\Ankit\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\Ankit\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Ankit\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Ankit\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.10\jxl-2.6.10.jar;C:\Users\Ankit\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\Ankit\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.26\jcl-over-slf4j-1.7.26.jar;C:\Users\Ankit\.m2\repository\org\dhatim\fastexcel-reader\0.15.3\fastexcel-reader-0.15.3.jar;C:\Users\Ankit\.m2\repository\com\fasterxml\aalto-xml\1.3.2\aalto-xml-1.3.2.jar;C:\Users\Ankit\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Ankit\.m2\repository\org\dhatim\fastexcel\0.15.3\fastexcel-0.15.3.jar;C:\Users\Ankit\.m2\repository\com\github\rzymek\opczip\1.2.0\opczip-1.2.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Ankit\AppData\Local\Temp\surefire571488469130384474\surefirebooter-20230712200653262_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ankit\AppData\Local\Temp\surefire4840942952461349675\surefirebooter-20230715204245173_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -48,221 +48,14 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Ankit/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/Ankit/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk-14.0.1\bin;D:\Softwares\chromedriver_win32\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Maven\apache-maven-3.9.2-bin\apache-maven-3.9.2\bin;C:\Users\Ankit\.dotnet\tools;C:\Users\Ankit\AppData\Local\Microsoft\WindowsApps;;C:\Users\Ankit\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Ankit/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin/server;C:/Users/Ankit/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk-14.0.1\bin;D:\Softwares\chromedriver_win32\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Maven\apache-maven-3.9.2-bin\apache-maven-3.9.2\bin;C:\Program Files\Git\cmd;C:\Users\Ankit\.dotnet\tools;C:\Users\Ankit\AppData\Local\Microsoft\WindowsApps;;C:\Users\Ankit\Desktop;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="14.0.1+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="Validate if the AddPlaces API is executed successfully" classname="Validate AddPlaces Api response" time="3.544">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <429>.
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at stepDefinations.AddvaluesstepDef.access_the_api_url(AddvaluesstepDef.java:19)
-	at ✽.Access the API url(classpath:Rest/Auto/Addvalues.feature:5)
-]]></failure>
-    <system-out><![CDATA[
-@Regression
-Scenario: Validate if the AddPlaces API is executed successfully &amp#27;[90m# Rest/Auto/Addvalues.feature:4&amp#27;[0m
-Request method:	GET
-Request URI:	https://dummy.restapiexample.com/api/v1/employees
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 429 Too Many Requests
-Date: Thu, 13 Jul 2023 00:06:56 GMT
-Server: nginx/1.21.6
-Content-Type: text/html; charset=UTF-8
-Content-Length: 595
-X-RateLimit-Limit: 60
-X-RateLimit-Remaining: 57
-retry-after: 40
-x-ratelimit-reset: 1689206857
-Cache-Control: no-cache, private
-Vary: Accept-Encoding
-Content-Encoding: gzip
-host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
-X-Endurance-Cache-Level: 2
-X-nginx-cache: WordPress
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Too Many Requests</title>
-    <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"/>
-    <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .code {
-                border-right: 2px solid;
-                font-size: 26px;
-                padding: 0 15px 0 15px;
-                text-align: center;
-            }
-
-            .message {
-                font-size: 18px;
-                text-align: center;
-            }
-        </style>
-  </head>
-  <body>
-    <div class="flex-center position-ref full-height">
-      <div class="code">
-                429            </div>
-      <div class="message" style="padding: 10px;">
-                Too Many Requests            </div>
-    </div>
-  </body>
-</html>
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mAccess the API url&amp#27;[0m                                       &amp#27;[90m# stepDefinations.AddvaluesstepDef.access_the_api_url()&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <429>.
-
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at stepDefinations.AddvaluesstepDef.access_the_api_url(AddvaluesstepDef.java:19)
-	at âœ½.Access the API url(classpath:Rest/Auto/Addvalues.feature:5)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mAdd the user information to the API&amp#27;[0m                       &amp#27;[90m# stepDefinations.AddvaluesstepDef.add_the_user_information_to_the_api()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mvalidate if the API response is successfull&amp#27;[0m               &amp#27;[90m# stepDefinations.AddvaluesstepDef.validate_if_the_api_response_is_successfull()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mvalidate the salary&amp#27;[0m                                       &amp#27;[90m# stepDefinations.AddvaluesstepDef.validate_the_salary()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="Access the Excel file and read the column values" classname="Load Excel file columns" time="1.406">
-    <system-out><![CDATA[
-@Exceltest
-Scenario: Access the Excel file and read the column values &amp#27;[90m# Rest/Auto/LoadExcelFile.feature:6&amp#27;[0m
-if case
-Emp id is 1.0
-Employee name is Ankit
-Emp salary is 200000.0
-Emp age is 34.0
-Emp id is 2.0
-Employee name is Sonia
-Emp salary is 300000.0
-Emp age is 32.0
-Emp id is 3.0
-Employee name is Arun
-Emp salary is 400000.0
-Emp age is 33.0
-Emp id is 4.0
-Employee name is Juganu
-Emp salary is 300000.0
-Emp age is 35.0
-Emp id is 5.0
-Employee name is Ramesh
-Emp salary is 500000.0
-Emp age is 50.0
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser access the excel file column values&amp#27;[0m           &amp#27;[90m# stepDefinations.LoadExcelFilestepDef.user_access_the_excel_file_column_values()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
-]]></system-err>
-  </testcase>
-  <testcase name="Nested API" classname="Test nested API example" time="0.513">
+  <testcase name="Nested API" classname="Test nested API example" time="3.876">
     <system-out><![CDATA[
 @NestedAPI
 Scenario: Nested API      &amp#27;[90m# Rest/Auto/NestedAPI.feature:6&amp#27;[0m
@@ -277,6 +70,9 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+Git test file
+Git test file
+Git test file
 England false Events ----Good Friday----false
 
     England false Events ----Good Friday----false
@@ -435,5 +231,9 @@ Ireland false Events ----Battle of the Boyne (Orangemen’s Day)----false
 Ireland false event ----18
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mVerify nested API&amp#27;[0m &amp#27;[90m# stepDefinations.NestedAPIstepDef.verify_nested_api()&amp#27;[0m
 ]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
   </testcase>
 </testsuite>

@@ -129,7 +129,7 @@ public class NestedAPIstepDef {
 
 	public String getDivisionName(JSONObject country, String division) {
 
-		System.out.println("Test AT");
+		gitTestFile.testMethod();
 		return country.getString(division);
 		
 
