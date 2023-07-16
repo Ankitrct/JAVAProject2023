@@ -9,8 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 
 		plugin = { "pretty", "html:target/cucumber-reports/report.html" , "json:target/jsonReports/report.json"},
-		glue = {"stepDefinations"}
-		//tags = "@NestedAPI"
+		glue = {"stepDefinations"},
+		tags = "@NestedAPI"
 		//monochrome = true
 
 )
