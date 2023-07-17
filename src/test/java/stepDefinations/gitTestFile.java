@@ -25,7 +25,7 @@ public class gitTestFile {
 		int tempvar = 0;
 
 		int Arraysize = intArray.size();
-
+//Rewirte this prg by using one for loop only one iteration needed
 		for (int i = 0; i < Arraysize; i++) {
 
 			for (int j = i + 1; j < Arraysize; j++) {
