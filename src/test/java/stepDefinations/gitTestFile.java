@@ -22,10 +22,8 @@ public class gitTestFile {
 		intArray.add(54);
 		intArray.add(32);
 
-		ArrayList<Integer> sortedArray = new ArrayList<Integer>();
-
 		int tempvar = 0;
-		int secondHighestVal = 0;
+
 		int Arraysize = intArray.size();
 
 		for (int i = 0; i < Arraysize; i++) {
@@ -41,8 +39,8 @@ public class gitTestFile {
 
 			}
 
-			if (i == (size - 1)) {
-				System.out.println(intArray.get(size - 2));
+			if (i == (Arraysize - 1)) {
+				System.out.println(intArray.get(Arraysize - 2));
 				break;
 			}
 
