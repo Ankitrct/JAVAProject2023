@@ -47,5 +47,15 @@ public class gitTestFile {
 		}
 
 	}
+	
+	public static char[] getCharactersOfString(String words) {
+		
+		char[] result = words.toCharArray();
+		for (int i = result.length -1; i <= result.length; i--) {
+			System.out.println(result[i]);
+		}
+		
+		return result;
+	}
 
 }
