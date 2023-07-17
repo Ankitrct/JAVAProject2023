@@ -126,14 +126,8 @@ public class NestedAPIstepDef {
 
 	public String getDivisionName(JSONObject country, String division) {
 
-		// gitTestFile.testMethod();
 		return country.getString(division);
 
-	}
-	
-	@Given("find second largest integer")
-	public void find_second_largest_integer() {
-	   gitTestFile.findSecondLartgestInteger();
 	}
 
 }
