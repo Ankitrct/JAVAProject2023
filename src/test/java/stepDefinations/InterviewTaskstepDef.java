@@ -24,5 +24,18 @@ public class InterviewTaskstepDef {
 		System.out.println(reversed);
 
 	}
+	
+	@Given("Identify Palindrome Number")
+	public void identify_palindrome_number() {
+		
+		//Write a prg to find a Palindrome Number. Ex. 16461 Output: True
+
+	}
+
+	@Given("Identify Palindrome String")
+	public void identify_palindrome_string() {
+		//Write a prg to find a String is palindrome or not.Ex. "madam" Output: True
+	}
+
 
 }
