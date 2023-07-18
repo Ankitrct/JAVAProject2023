@@ -13,24 +13,15 @@ public class InterviewTaskstepDef {
 	public void reverse_a_string_without_changing_order() {
 
 		String sourceVal = "Coding is fun";
+		System.out.println(sourceVal);
+
 		String[] words = sourceVal.split(" ");
-		String indvidualWord;
 
-		StringBuilder stb = new StringBuilder();
-		
-		for (int i = 0; i < words.length; i++) {
-			indvidualWord = words[i];
-			//gitTestFile.getCharactersOfString(indvidualWord);
-			
-			char[] result = indvidualWord.toCharArray();
-			for (int j = result.length -1; j >=0; j--) {
-				stb.append(result[i]);
-			}
-			stb.append(" ");
+		StringBuilder reversed = new StringBuilder();
 
-		}
-		
-		System.out.println(stb);
+		reversed = gitTestFile.getReverseString(words, reversed);
+
+		System.out.println(reversed);
 
 	}
 

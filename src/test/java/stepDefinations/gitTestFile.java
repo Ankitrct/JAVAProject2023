@@ -17,45 +17,49 @@ public class gitTestFile {
 
 		ArrayList<Integer> intArray = new ArrayList<Integer>();
 		intArray.add(24);
-		intArray.add(22);
+		intArray.add(222);
 		intArray.add(100);
-		intArray.add(54);
+		intArray.add(542);
 		intArray.add(32);
 
-		int tempvar = 0;
+		int maxValue = Integer.MIN_VALUE;
+		int secondhighestValue = Integer.MIN_VALUE;
 
-		int Arraysize = intArray.size();
-//Rewirte this prg by using one for loop only one iteration needed
-		for (int i = 0; i < Arraysize; i++) {
+		for (int i = 0; i < intArray.size(); i++) {
 
-			for (int j = i + 1; j < Arraysize; j++) {
+			if (intArray.get(i) > maxValue) {
 
-				if (intArray.get(i) > intArray.get(j)) {
-					tempvar = intArray.get(i);
-					intArray.set(i, intArray.get(j));
-					intArray.set(j, tempvar);
+				secondhighestValue = maxValue;
 
-				}
+				maxValue = intArray.get(i);
 
-			}
+			} else if (intArray.get(i) > secondhighestValue) {
 
-			if (i == (Arraysize - 1)) {
-				System.out.println(intArray.get(Arraysize - 2));
-				break;
+				secondhighestValue = intArray.get(i);
+
 			}
 
 		}
+
+		// System.out.println(secondhighestValue);
+		// System.out.println(maxValue);
 
 	}
-	
-	public static char[] getCharactersOfString(String words) {
-		
-		char[] result = words.toCharArray();
-		for (int i = result.length -1; i <= result.length; i--) {
-			System.out.println(result[i]);
+
+	public static StringBuilder getReverseString(String[] words, StringBuilder sentence) {
+
+		String indvidualWord;
+		for (int i = 0; i < words.length; i++) {
+			indvidualWord = words[i];		
+
+			for (int j = indvidualWord.length() - 1; j >= 0; j--) {
+				sentence.append(indvidualWord.charAt(j));
+			}
+			sentence.append(" ");
+
 		}
-		
-		return result;
+
+		return sentence;
 	}
 
 }

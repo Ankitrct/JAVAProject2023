@@ -1,7 +1,5 @@
 stepDefinations\LoadExcelFilestepDef.class
 Utils\Payload.class
-stepDefinations\InterviewTaskstepDef.class
-stepDefinations\gitTestFile.class
 stepDefinations\LoadExcelFilestepDef$1.class
 Rest\Auto\TestRunner.class
 stepDefinations\NestedAPIstepDef.class
