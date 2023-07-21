@@ -1,5 +1,6 @@
 import java.util.ArrayList;
-
+***************REWRITE THIS PRG WITHOUT CHANGING THE NUMBER TO A STRING ******************
+	HINT: USE % AND / TO REVERSE A NUMBER.
 public class PalindromeInteger {
 
 	public static void main(String[] args) {
