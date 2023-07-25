@@ -1,6 +1,7 @@
 import java.util.ArrayList;
-***************REWRITE THIS PRG WITHOUT CHANGING THE NUMBER TO A STRING ******************
-	HINT: USE % AND / TO REVERSE A NUMBER.
+//***************REWRITE THIS PRG WITHOUT CHANGING THE NUMBER TO A STRING ******************
+//HINT: USE % AND / TO REVERSE A NUMBER
+
 public class PalindromeInteger {
 
 	public static void main(String[] args) {
@@ -10,48 +11,34 @@ public class PalindromeInteger {
 		ArrayList<Integer> listofNumbers = new ArrayList<Integer>();
 		listofNumbers.add(123);
 		listofNumbers.add(10);
-		listofNumbers.add(16461);
+		listofNumbers.add(12621);
 		listofNumbers.add(121);
 		listofNumbers.add(33456);
 
-		boolean flag = false;
+		int org_num = 0;
+		int rev, num;
 
 		for (int i = 0; i < listofNumbers.size(); i++) {
 
-			StringBuilder readForward = new StringBuilder();
-			StringBuilder readBackword = new StringBuilder();
+			rev = 0;
+			num = 0;
+			num = listofNumbers.get(i);
+			org_num = num;
 
-			String number = listofNumbers.get(i).toString();
-			System.out.println("checking for --" + number);
+			while (num != 0) {
 
-			for (int j = 0; j < number.length(); j++) {
+				rev = rev * 10 + num % 10;
 
-				readForward.append(number.charAt(j));
+				num = num / 10;
 
+				//System.out.println("Org num " + org_num + "  rev number  " + rev);
 			}
 
-			for (int k = number.length() - 1; k >= 0; k--) {
-
-				readBackword.append(number.charAt(k));
-
-			}
-
-			if (readForward.toString().equals(readBackword.toString())) {
-				flag = true;
-				System.out.println(number + " is Palindrome");
-				System.out.println("-------------------------");
-			} else {
-				System.out.println(number + " is NOT Palindrome");
-				System.out.println("-------------------------");
-
-			}
-
+			if (org_num == rev)
+				System.out.println("Number is Palindrome " + org_num);
+			else
+				System.out.println("Number is NOT Palindrome " + org_num);
 		}
-
-		if (flag)
-			System.out.println("The list have Palindrome number");
-		else
-			System.out.println("The list DO NOT have any Palindrome number");
 
 	}
 
